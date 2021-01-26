@@ -15,6 +15,7 @@ targetNodes:
   nodeType: 
     - javaengine,tomcat,glassfish,wildfly,springboot
     - vds
+    - centos
     - storage
     
 #The next optional description parameters, stated in lines 15-17, help users to figure out what is the add-on might be used for.
