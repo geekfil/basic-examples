@@ -12,11 +12,8 @@ logo: http://raw.githubusercontent.com/jelastic-jps/basic-examples/master/daas-a
 
 #Describe the nodeType the add-on may be installed on. The targetNodes method is used. It filters available nodes in the environment to fit the required nodeType.
 targetNodes:
-  nodeType: 
-    - javaengine,tomcat,glassfish,wildfly,springboot
-    - vds
+  dockerOs: 
     - centos
-    - storage
     
 #The next optional description parameters, stated in lines 15-17, help users to figure out what is the add-on might be used for.
 description: 
