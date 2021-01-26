@@ -11,9 +11,8 @@ name: DaaS Add-On
 logo: http://raw.githubusercontent.com/jelastic-jps/basic-examples/master/daas-addon/images/daas-logo-nomachine-small.png
 
 #Describe the nodeType the add-on may be installed on. The targetNodes method is used. It filters available nodes in the environment to fit the required nodeType.
-targetNodes:
-  dockerOs: 
-    - centos
+targetNodes: centos-vps
+  
     
 #The next optional description parameters, stated in lines 15-17, help users to figure out what is the add-on might be used for.
 description: 
